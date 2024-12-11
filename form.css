@@ -1,0 +1,64 @@
+body {
+    background: url(nature.avif)
+}
+
+.regform {
+    width: 400px;
+    color: white; 
+    margin: 250px auto;
+    background-color: rgb(0,0,0,.7);
+   padding: 10px 20px 30px;
+   font-size: 20px;
+   border-radius: 8px;
+    h1::first-letter{
+        font-size: 2em;
+       font-family: cursive
+       
+    }
+    h1{
+        text-align: center;
+        color: brown;
+    }
+}
+    .regform .san{
+        display:block;
+        font-size: 1.5em;
+        
+    }
+    .input input{
+        width: 100%;
+        font-size: 1.5em;
+        padding: 10px 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        box-shadow: 2px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-style: solid ;
+        border-color:red ;
+        
+    }
+    .button{
+        font-size: 1.1em;
+        margin-top: 10px;
+        color: black;
+        background-color: cornsilk;
+        padding: 10px 10px;
+        border-radius: 8px;
+       
+    }
+    button:hover{
+        color: violet
+    }
+    .bt{
+        text-align: center;
+    }
+    input:focus{
+        background-color: aquamarine;
+    }
+    .ratio{
+        accent-color:blue;
+    }
+
+    
+
